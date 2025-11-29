@@ -22,16 +22,8 @@ Thumbs.db
 
 --- Project Outputs ---
 
-Usually, generated images are ignored to keep the repo small.
+Simulation plots and outputs are allowed (not ignored) so they are visible on GitHub.
 
-However, this rule is commented out below so that the simulation
-
-graphs ARE uploaded to GitHub for easy viewing.
-
-output/plots/*
-
-This ensures the 'output/plots' folder exists in the repo
-
-even if it is initially empty.
+This rule ensures the folder structure is tracked even if empty:
 
 !output/plots/.gitkeep
