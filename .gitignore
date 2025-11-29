@@ -1,0 +1,37 @@
+--- Python Internals ---
+
+Ignore temporary files created by Python to speed up execution
+
+pycache/
+*.py[cod]
+
+--- Virtual Environments ---
+
+Ignore environment folders if you create them
+
+venv/
+env/
+.env
+
+--- Operating System Files ---
+
+Ignore annoying system files created by Mac/Windows
+
+.DS_Store
+Thumbs.db
+
+--- Project Outputs ---
+
+Usually, generated images are ignored to keep the repo small.
+
+However, this rule is commented out below so that the simulation
+
+graphs ARE uploaded to GitHub for easy viewing.
+
+output/plots/*
+
+This ensures the 'output/plots' folder exists in the repo
+
+even if it is initially empty.
+
+!output/plots/.gitkeep
